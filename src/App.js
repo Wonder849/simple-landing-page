@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import oleksandrImg from "./img/oleksandrAv.jpg";
 import vladImg from "./img/vladAv.jpg";
+import mariiaImg from "./img/mariiaAv.jpg";
+
 
 function App() {
     return (
@@ -24,6 +26,12 @@ function App() {
                         <img className="img" src={vladImg} alt="Vlad" />
                         <h2>Ostrovets V.M.</h2>
                         <p>Software Engineer</p>
+
+<div className="card">
+                        <img className="img" src={mariiaImg} alt="Mariia" />
+                        <h2>Sydoruk M.V.</h2>
+                        <p>Software Engineer</p>
+
 
                     <div className="card">
                         <h2>General Card A</h2>
