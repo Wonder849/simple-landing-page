@@ -23,6 +23,10 @@ function App() {
                         <h2>Ostrovets V.M.</h2>
                         <p>Software Engineer</p>
                     </div>
+                    <div className="card">
+                        <h2>General Card B</h2>
+                        <p>This is a general card created in branch B.</p>
+                    </div>
                 </div>
             </main>
         </div>
