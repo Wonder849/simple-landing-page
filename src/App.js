@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import oleksandrImg from "./img/oleksandrAv.jpg";
+import vladImg from "./img/vladAv.jpg";
 
 function App() {
   return (
@@ -13,8 +13,8 @@ function App() {
           {/* Тут кожен додає свою картку вручну */}
 
           <div className="card">
-            <img className="img" src={oleksandrImg} alt="Oleksandr"/>
-            <h2>Krekhovetskyi O.V.</h2>
+            <img className="img" src={vladImg} alt="Vlad"/>
+            <h2>Ostrovets V.M.</h2>
             <p>Software Engineer</p>
           </div>
         </div>
