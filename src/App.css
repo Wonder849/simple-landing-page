@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.img {
+  width: 100px;
+  height: 100px;
+
+  object-fit: cover;
+}
+
+.wrapp {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
