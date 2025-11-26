@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import oleksandrImg from "./img/oleksandrAv.jpg";
 
 function App() {
   return (
@@ -8,16 +9,15 @@ function App() {
         <h1>My dream team</h1>
       </header>
       <main>
+        <div className ="wrapp">
+          {/* Тут кожен додає свою картку вручну */}
 
-         {/* Тут кожен додає свою картку вручну */}
-        {/* Наприклад: */}
-        {/* 
-        <div className="card">
-          <img src="/avatar-default.png" alt="John Doe" />
-          <h2>John Doe</h2>
-          <p>Software Engineer</p>
+          <div className="card">
+            <img className="img" src={oleksandrImg} alt="Oleksandr"/>
+            <h2>Krekhovetskyi O.V.</h2>
+            <p>Software Engineer</p>
+          </div>
         </div>
-        */}
       </main>
     </div>
   );
