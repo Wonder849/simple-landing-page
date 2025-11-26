@@ -4,20 +4,21 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>My dream team</h1>
       </header>
+      <main>
+
+         {/* Тут кожен додає свою картку вручну */}
+        {/* Наприклад: */}
+        {/* 
+        <div className="card">
+          <img src="/avatar-default.png" alt="John Doe" />
+          <h2>John Doe</h2>
+          <p>Software Engineer</p>
+        </div>
+        */}
+      </main>
     </div>
   );
 }
