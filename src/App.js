@@ -27,17 +27,19 @@ function App() {
                         <h2>Ostrovets V.M.</h2>
                         <p>Software Engineer</p>
 
-<div className="card">
+
+                    </div>
+                    <div className="card">
+                        <h2>General Card B</h2>
+                        <p>This is a general card created in branch B.</p>
+                   </div>
+
+                      <div className="card">
                         <img className="img" src={mariiaImg} alt="Mariia" />
                         <h2>Sydoruk M.V.</h2>
                         <p>Software Engineer</p>
 
-
-                    <div className="card">
-                        <h2>General Card A</h2>
-                        <p>This is a general card created in branch A.</p>
-                      </div>
-
+                   </div>
 
                     </div>
                 </div>
