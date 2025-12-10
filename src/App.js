@@ -16,6 +16,7 @@ function App() {
             <img className="img" src={oleksandrImg} alt="Oleksandr"/>
             <h2>Krekhovetskyi O.V.</h2>
             <p>Software Engineer</p>
+            <p>^_^</p>
           </div>
         </div>
       </main>
