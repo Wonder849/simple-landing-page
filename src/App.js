@@ -24,6 +24,7 @@ function App() {
                         <img className="img" src={vladImg} alt="Vlad" />
                         <h2>Ostrovets V.M.</h2>
                         <p>Software Engineer</p>
+                        <p>Frontend Development Specialistd:</p>
                     </div>
 
                     <div className="card">
