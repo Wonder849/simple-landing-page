@@ -30,6 +30,7 @@ function App() {
                         <img className="img" src={mariiaImg} alt="Mariia" />
                         <h2>Sydoruk M.V.</h2>
                         <p>Software Engineer</p>
+                        <p>Some text</p>
                     </div>     
 
                     <div className="card">
